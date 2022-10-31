@@ -1,6 +1,6 @@
 {
   "extends": ["github>ladzaretti/repo-b:renovate.json", ":pinVersions"],
-  packageRules: [
+  "packageRules": [
     {
       "updateTypes": ["major"],
       "labels": ["MAJOR"]
